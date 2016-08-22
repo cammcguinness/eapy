@@ -18,3 +18,6 @@ This project is a minimal framework for evolutionary algorithms. It is meant as 
 
 3. Once you have these two classes created you simply create an EA object by calling 
 `EA(selection,Representation,popSize)`. The selection method needs to be instantialized while you only need to send in the Object name for the representation. Once the EA object is created, call EA.run(generations).
+
+###Examples
+For an example see \_\_main\_\_.py and the examples directory. The example directory would also be a good place to find implemented Selection methods (they are typically problem independent).
